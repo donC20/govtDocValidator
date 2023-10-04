@@ -26,6 +26,7 @@ def preprocess_image_from_url(image_url):
     img = img / 255.0
     img = np.float32(img)
     img = np.expand_dims(img, axis=0)
+    print(img)
     return img
 
 
