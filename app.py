@@ -10,7 +10,7 @@ from io import BytesIO
 # Set Tesseract path
 # pytesseract.pytesseract.tesseract_cmd = 'pytesseract/tesseract.exe'
 
-# app = Flask(__name__)
+app = Flask(__name__)
 
 # # Load the TFLite model
 # interpreter = tf.lite.Interpreter(model_path="image_classifier_model.tflite")
