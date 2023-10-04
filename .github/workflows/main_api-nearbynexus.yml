@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'api-nearbynexus'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8A176B199C0D47F384DDD2A40FAFBB8B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D066D53EEF744319BA9A41172B4375A2 }}
