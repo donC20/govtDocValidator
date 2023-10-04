@@ -88,6 +88,9 @@ def predict():
         return predictByImageFromURL(image_url)
     else:
         return jsonify({"error": "Invalid request method"}), 405
+@app.route('/')
+def index():
+    return "<center><h1>hello dude</h1></center>"
 
 
 if __name__ == '__main__':
