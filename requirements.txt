@@ -1,0 +1,5 @@
+gunicorn 
+flask
+pytesseract
+tensorflow
+opencv-python
